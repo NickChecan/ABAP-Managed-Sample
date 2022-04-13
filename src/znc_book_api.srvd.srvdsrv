@@ -1,0 +1,4 @@
+@EndUserText.label: 'Book API Service Definition'
+define service ZNC_BOOK_API {
+  expose ZNC_BOOK_CDS as BookDataSet;
+}
