@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Books'
+define service ZNC_BOOK_UI {
+  expose ZNC_BOOK_CDS as BookDataSet;
+}
