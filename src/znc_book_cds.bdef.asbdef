@@ -1,0 +1,13 @@
+managed implementation in class zbp_nc_book_cds unique;
+strict;
+
+define behavior for ZNC_BOOK_CDS //alias <alias_name>
+persistent table ZNC_BOOK_DATA
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}
